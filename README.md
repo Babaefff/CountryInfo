@@ -5,5 +5,15 @@ This project is a web application that allows users to explore various countries
 
 ## Installation
 1. Clone the repository:
-   ```bash
+ git clone https://github.com/Babaefff/CountryInfo.git
+
+Navigate to the project directory:
+cd [filename]
+
+Installing dependencies:
+npm install
+
+To start the application, run:
+npm start
+
   
