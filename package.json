@@ -1,0 +1,12 @@
+{
+  "name": "CountryInformation",
+  "version": "1.0.0",
+  "scripts": {
+      "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\"",
+      "start:frontend": "cd frontend && npm start",
+      "start:backend": "cd backend/src && nodemon index.js"
+  },
+  "devDependencies": {
+      "concurrently": "^6.0.0" 
+  }
+}
