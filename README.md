@@ -16,4 +16,9 @@ npm install
 To start the application, run:
 npm start
 
+To start the only backend, run:
+ "start:backend": "cd backend/src && nodemon index.js"
+To start the only frontend, run:
+"start:frontend": "cd frontend && npm start"
+     
   
